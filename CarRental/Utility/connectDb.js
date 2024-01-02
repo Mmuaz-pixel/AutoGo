@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const connectDb = async() => {
     mongoose.set("strictQuery", false);
-    const connection = await mongoose.connect("mongodb+srv://MuazINoteBook:INoteBook@cluster0.cykrlhc.mongodb.net/")
+    const connection = await mongoose.connect("")
     console.log("Mongo connected");
 }
 
