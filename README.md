@@ -72,12 +72,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Deployment on Aws (Docker+SSl)
 1. Create Dockerfile 
-2. Build Docker Image 
+2. Build Docker Image    
 
 
-  docker build -t (imagename)  imagename is name of docker image
+ ----docker build -t (imagename)  imagename is name of docker image
 
 3. Run Docker Container
 
-    docker run -p 3000:3000 -d (imagename)
+    ----docker run -p 3000:3000 -d (imagename)
 
