@@ -70,4 +70,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-### Deployment on Aws (Docker+SSl)
+### Dockerize Locally
+1. Create Dockerfile 
+2. Build Docker Image    
+
+
+ ----docker build -t (imagename) . imagename is name of docker image
+
+3. Run Docker Container
+
+----docker run -p 3000:3000 -d (imagename)
+
